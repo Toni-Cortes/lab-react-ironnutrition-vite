@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
+ 
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
 .logo {
@@ -39,4 +41,43 @@
 
 .read-the-docs {
   color: #888;
+}
+
+img{
+  height: 100px;
+}
+
+.food-box{
+  border: 1px white solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  
+  min-width: 15%;
+
+}
+
+.food-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.add-food{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  label{
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  
+}
+
+form {
+  button{
+    margin-top: 20px;
+
+  }
 }
